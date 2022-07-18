@@ -41,8 +41,8 @@ double[] AverageColumn(int[,] arr)
     int index = 0;
     for (int j = 0; j < arr.GetLength(1); j++)
     {
-        int sum = 0;
-        int count = 0;
+        double sum = 0;
+        double count = 0;
         for (int i = 0; i < arr.GetLength(0); i++)
         {
             sum = sum + arr[i, j];
